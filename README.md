@@ -34,7 +34,7 @@ The project is designed to be deployed on an FPGA board (such as the **Digilent 
 ## Simulation
 The core logic has been simulated to verify the timing and state transitions. 
 
-![Simulation Waveform](Waveform.jpg)
+![Simulation Waveform](Waveform.png)
 *The waveform illustrates the `uut` (Unit Under Test) responding to the `clk` and `rst` signals. It verifies that the `timer[3:0]` successfully resets and counts up for each respective `state[1:0]`, triggering the correct `R`, `G`, and `Y` outputs.*
 
 ## How to Use
